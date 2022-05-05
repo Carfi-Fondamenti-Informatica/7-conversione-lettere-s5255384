@@ -1,5 +1,21 @@
-#include <iostream>
+#include<iostream>
+#include"lib.h"
 
-int main(){
-  return 0;
+using namespace std;
+
+int main() {
+
+    char x;
+    bool y;
+    cin >> x;
+
+    y = Carattere(x);
+
+    if (y == true)
+        cout << x << endl;
+    else
+        cout << "Errore" << endl;
+
+    return 0;
+
 }
