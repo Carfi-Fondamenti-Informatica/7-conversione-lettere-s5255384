@@ -14,7 +14,7 @@ int main() {
     if (y == true)
         cout << x << endl;
     else
-        cout << "Errore" << endl;
+        cout << "errore" << endl;
 
     return 0;
 
