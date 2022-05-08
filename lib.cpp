@@ -16,5 +16,4 @@ bool Carattere (char &x){
 
     else
         return false;
-
 }
